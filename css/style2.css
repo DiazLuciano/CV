@@ -165,18 +165,18 @@ section h2 {
 }
 
 .desarrollo-front {
-    width: 25%;
+    width: 20%;
     animation: desarrollo-front 2s;
 
 }
 
 .desarrollo-api {
-    width: 17%;
+    width: 15%;
     animation: desarrollo-front 2s;
 }
 
 .ux-ui {
-    width: 20%;
+    width: 10%;
     animation: desarrollo-front 2s;
 }
 
@@ -186,7 +186,7 @@ section h2 {
 }
 
 .gestion-proyectos {
-    width: 25%;
+    width: 15%;
     animation: desarrollo-front 2s;
 }
 

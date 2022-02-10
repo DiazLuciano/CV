@@ -2,681 +2,694 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style2.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap"
-        rel="stylesheet">
-    <!-- My Styles -->
-    <link rel="stylesheet" href="css/loadSpinner.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-    <!-- AOS Animaciones -->
-    <link rel="stylesheet" href="css/aos.css" />
+  <title>Luciano Diaz - Porfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <title>Luciano Díaz - Resume</title>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navg navbar-nav w-100 justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-me">About me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#aptitudes">Technical Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#education">Education</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#experiences">Experiencie</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Luciano Nicolás Díaz</h1>
+      <p>I'm <span class="typed" data-typed-items="Full Stack Developer, Musician"></span></p>
+      <div class="social-links">
+        <a href="https://github.com/DiazLuciano" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/lucianonicolasdiaz/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            My name is Luciano, and I'm working on the Web Development since 2020. 
+            After getting my technician degree on programming, I started my first job on a start-up that initialized me on the .NET world.
+            I am a Full Stack developer with industry experience building websites and web applications. 
+            I specialize in .NET and have professional experience working with C# and JavaScript. 
+            I also have experience working with jQuery, CSS, HTML, SQL Server, Git and React.</p>
         </div>
-        <!-- End Navbar -->
 
-        <!-- Profile -->
-        <section>
-            <img src="images/pics/me.jpeg" width="180" class="img rounded-circle img-fluid"
-                alt="First sample avatar image">
-            <!-- TITULOS -->
-            <h1>Luciano Nicolás Díaz</h1>
-            <h2>Full-Stack Developer</h2>
-
-            <!-- CVs -->
-            <br>
-            <a href="Resume/Resume.pdf" download="Resume.pdf" class="botonPDF">
-                <i class="fa fa-file-pdf"></i> PDF Resume
-            </a>
-            <a href="Resume/Resume.docx" download="Resume.docx" class="botonWord">
-                <i class="fa fa-file-word"></i> DOCX Resume
-            </a>
-        </section>
-        <!-- End Profile -->
-    </header>
-
-    <section id="about-me">
-        <div class="container">
-            <div class="card" data-aos="fade-up">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3 class="card-title"><strong>About me</strong></h3>
-                            <!-- Text -->
-                            <p class="card-text">Hi! Mi name is Luciano. Since 2020, I'm working as a web programmer.
-                            </p>
-                            <p class="card-text">My interests in this topic? I looking for the good practices and
-                                knowledge about different
-                                programming languages ​​and technologies. I am inclined to improve a full-stack profile.
-                            </p>
-                            <p class="card-text">About work, I consider that it's very important to maintain a good
-                                environment and
-                                communication between the participants of the team to achieve the best possible the
-                                common objective.</p>
-                            <p class="card-text">And talking about my free times, I believe it's necessary work-out,
-                                'cause we need to
-                                keep health's physical as pyschic. So, in my case, I do swimming (I'm lifeguard too) and
-                                functional trainning
-                                on my own. But something important in my life, is keeping on my musical proyect, because
-                                it's being part of
-                                my life since my teenage years.</p>
-                        </div>
-
-                        <div id="basic-info" class="col-md-6">
-                            <h3 class="card-title"><strong>Personal Information</strong></h3>
-                            <div class="card-text">
-                                <div class="row space-info">
-                                    <div class="col-md-3">
-                                        <b>Age:</b>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <span id="luciano-years-old"></span>
-                                    </div>
-                                </div>
-
-                                <div class="row space-info">
-                                    <div class="col-md-3">
-                                        <b>E-Mail:</b>
-                                    </div>
-                                    <div class="col-md-6">
-                                        luchodiaz1995@gmail.com
-                                    </div>
-                                </div>
-
-                                <div class="row space-info">
-                                    <div class="col-md-3">
-                                        <b>Phone:</b>
-                                    </div>
-                                    <div class="col-md-6">
-                                        +54 11-5910-2957
-                                    </div>
-                                </div>
-
-                                <div class="row space-info">
-                                    <div class="col-md-3">
-                                        <b>Address:</b>
-                                    </div>
-                                    <div class="col-md-6">
-                                        El Talar, Tigre, Buenos Aires (Argentina)
-                                    </div>
-                                </div>
-
-                                <div class="row space-info">
-                                    <div class="col-md-3">
-                                        <b>Languages:</b>
-                                    </div>
-                                    <div class="col-sm-9 space-ul-li">
-                                        <span><b>Spanish</b> - Native</span>
-                                        <span><b>Enlgish</b> - B2 Intermediate</span>
-                                        <ul>
-                                            <li><b>Written:</b> Intermediate</li>
-                                            <li><b>Oral:</b> Intermediate</li>
-                                            <li><b>Comprehension:</b> Intermediate</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="aptitudes">
-        <div data-aos="fade-up">
-            <h2>Technical Skills</h2>
-            <div class="container">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>
-                                    <h3>back-end development</h3>
-                                </label>
-                                <label class="progress-number">25%</label>
-                                <span class="bar">
-                                    <span class="desarrollo-backend" data-aos="charge-bar"></span>
-                                </span>
-                            </div>
-                            <div class="col-md-6">
-                                <label>
-                                    <h3>front-end development</h3>
-                                </label>
-                                <label class="progress-number">25%</label>
-                                <span class="bar">
-                                    <span class="desarrollo-front" data-aos="charge-bar"></span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>
-                                    <h3>api development | web services</h3>
-                                </label>
-                                <label class="progress-number">15%</label>
-                                <span class="bar">
-                                    <span class="desarrollo-api"></span>
-                                </span>
-                            </div>
-                            <div class="col-md-6">
-                                <label>
-                                    <h3>ux & ui</h3>
-                                </label>
-                                <label class="progress-number">10%</label>
-                                <span class="bar">
-                                    <span class="ux-ui"></span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>
-                                    <h3>database</h3>
-                                </label>
-                                <label class="progress-number">25%</label>
-                                <span class="bar">
-                                    <span class="base-datos"></span>
-                                </span>
-                            </div>
-                            <div class="col-md-6">
-                                <label>
-                                    <h3>proyect management</h3>
-                                </label>
-                                <label class="progress-number">15%</label>
-                                <span class="bar">
-                                    <span class="gestion-proyectos"></span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education">
-        <div data-aos="fade-up">
-            <h2>Education</h2>
-
-            <div class="container">
-
-                <!-- Bachillerato -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>2007 - 2013</h5>
-                                <h4>High School Degree</h4>
-                            </div>
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">Degree in Social Sciences</h3> <h4
-                                            class="h4Color">Institute Mariano Moreno - General Pacheco, Tigre, Buenos Aires(AR)</h4>
-                                            <p class="card-text">I had my basic education in this private high school
-                                                since elementary school.
-                                                The title I obtained is oriented to Humanities, focused on Social Sciences.
-                                                The institute has only two orientations, Humanities and Economy. 
-                                                GPA: 8.34</p>
-                                            <p class="card-text" style="float: right;"><b>Finished</b></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- English -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>2014 - 2017</h5>
-                                <h4>English</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">English</h3>
-                                    <h4 class="h4Color">Saint Mary School of English - General Pacheco, Tigre, Buenos Aires(AR)</h4>
-                                    <p class="card-text">
-                                        In this institute, I attended the 4th, 5th and 6th years (I studied the last two
-                                        years at the same time in
-                                        order to accelerate the course). After passing these grades, the next step was
-                                        the preparation for the First Certificate exam.
-                                        But I didn't take the exam for economic inconvenient in that year (2017).
-                                        My English level is B2 Intermediate.
-                                    </p>
-                                    <p class="card-text status-education"><b>Finished</b></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Music Conservatory -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>2014 - 2015</h5>
-                                <h4>Music</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">Basic Musical Training</h3>
-                                    <h4 class="h4Color">Conservatory Juan José Castro - Locations in Martinez and La
-                                        Lucila, Buenos Aires(AR)
-                                    </h4>
-                                    <p class="card-text">
-                                        This career lasts 8 years. In this institute, I've studied 2 years in musical 
-                                        knowledge. My purpose was become a musical teacher, but several aspects of the 
-                                        career did not convince me at all and I decided to adopt the acquired knowledge 
-                                        to start a musical project individually.
-                                    </p>
-                                    <p class="card-text status-education"><b>Incomplete</b></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Lifeguard -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>2016 - 2017</h5>
-                                <h4>Lifeguard</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">Lifeguard Professional Training</h3>
-                                    <h4 class="h4Color">Vicente Lopéz University Center - Munro, Buenos Aires(AR)</h4>
-                                    <p class="card-text">
-                                        This course lasts 1 year. In this institute, I did the professional training of
-                                        lifeguard. I took this course to complete a young sport phase(swimming) of my life and
-                                        give it a lucrative sense to support me in my expenses. 
-                                        GPA: 7.93
-                                    </p>
-                                    <p class="card-text status-education"><b>Finished</b></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Programmer Technician -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="container col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>2018 - 2020</h5>
-                                <h4>University Technician in Programming</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">UTP (University Technician in Programming)</h3>
-                                    <h4 class="h4Color">National Technological University - FRGP - General Pacheco, Tigre, Buenos Aires(AR)
-                                    </h4>
-                                    <p class="card-text">
-                                        This career lasts 2 years. After finishing my second year at the
-                                        conservatory, I decided to choose this career under the influence of a
-                                        programmer. I had curious about the world of programming.
-                                        I was also impressed by the great job opportunities.
-                                        Also, I liked the idea that the career is more technically
-                                        than theoretical. Beyond these aspects, the freedom to create anything in any
-                                        topic, was one of the aspects that attracted me. Do a job or
-                                        activity where creativity has a importante role,
-                                        is something that I consider important in the life's people, to maintain
-                                        and remember the feeling of freedom.
-                                    </p>
-                                    <p class="card-text status-education"><b>Finished</b></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Computer Systems Technician -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>2020 - 2021</h5>
-                                <h4>University Technician in Computer Systems</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">UTCS (University Technician in Computer Systems)
-                                    </h3>
-                                    <h4 class="h4Color">National Technological University - FRGP - General Pacheco, Tigre, Buenos Aires(AR)
-                                    </h4>
-                                    <p class="card-text">
-                                        This course lasts 1 year and is consecutive to the UTP career. I decided to do
-                                        this 3rd year (that is optional), to complement the last degree. 
-                                        Gaining more knowledge on how to realize complete end-to-end systems, would
-                                        help me to achieve greater autonomy and development for my professional profile.
-                                        In this year, I focused more on the documentation and requirements to carry out
-                                        the systems. I discovered the importance of planning before getting down to
-                                        work.
-                                    </p>
-                                    <p class="card-text status-education"><b>Finished</b></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <section id="experiences">
-        <div data-aos="fade-up">
-            <h2>Experiences</h2>
-
-            <!-- Cinemark -->
-            <div class="container">
-
-                <div class="card" data-aos="fade-up">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>September 2017 - October 2017</h5>
-                                <h4>Customer Service</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">Services</h3>
-                                    <h4 class="h4Color"><span style="color: rgb(245, 22, 22);">Cinemark</span> -
-                                        Shopping
-                                        Soleil - 
-                                        Boulogne, Buenos Aires(AR)</h4>
-                                    <p class="card-text">
-                                        This was my first official job, before to start any career. My tasks consisted in customer
-                                        service at the time of entry to the rooms of the complex and also perform
-                                        maintenance tasks corresponding to these rooms.</p>
-                                    <ul class="space-ul-li">
-                                        <li><b>Modality:</b> Dependency relationship.</li>
-                                        <li><b>Contract type:</b> Temporal.</li>
-                                        <li><b>Working day:</b> 6hs Monday-Saturday</li>
-                                    </ul>
-
-                                    <p class="card-text" style="float: right;"><b></b></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Lifeguard -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>December 2017 - January 2020</h5>
-                                <h4>Lifeguard</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">Lifeguard</h3>
-                                    <h4 class="h4Color"><span style="color: rgba(7, 110, 245, 0.877);">Natación Pacheco
-                                            SRL</span> -
-                                            General Pacheco, Tigre, Buenos Aires(AR)</h4>
-                                    <p class="card-text">
-                                        After graduating as a lifeguard, I looked for a job in the Pacheco
-                                        area, to try have a balance between my programming career and a job. This
-                                        club is located behind the university where I studied. My tasks consisted in the
-                                        control, care and assistance to members of the
-                                        establishment.
-                                    </p>
-                                    <ul class="space-ul-li">
-                                        <li><b>Modality:</b> Dependency relationship.</li>
-                                        <li><b>Contract type:</b> Indefinite period.</li>
-                                        <li><b>Working day:</b> 6hs Monday-Saturday</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Web Developer Time Solution -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>February 2020 - April 2021</h5>
-                                <h4>Full-Stack Developer</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">Full-Stack Developer</h3>
-                                    <h4 class="h4Color"><span style="color: rgb(255, 175, 1);">Time Solution
-                                            Software</span>
-                                        -
-                                        Nordelta (Tigre), Tigre, Buenos Aires(AR)</h4>
-                                    <p class="card-text">
-                                        This was my first IT job. My tasks were about the development and maintenance
-                                        of the main e-commerce system. I also worked with adaptation's
-                                        system for clients of different topics, such as esthetics and veterinaries.
-                                        I worked with Web and Desktop applications using ASP.NET framework 4.5 or higher, on Web
-                                        Forms and Web Api projects. Databases developments with SQL Server.
-                                        Database interaction with ADO.NET and Entity Framework. Front-End
-                                        development using jQuery, JavaScript, Html5 and CSS. Back-End
-                                        development using C#. Version’s control with GitHub using Sourcetree
-                                        interface.
-                                    </p>
-                                    <ul class="space-ul-li">
-                                        <li><b>Modality:</b> Dependency relationship.</li>
-                                        <li><b>Contract type:</b> Indefinite period.</li>
-                                        <li><b>Working day:</b> Full-Time.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- .NET Developer Globant -->
-                <div class="card">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 align-first-column" data-aos="fade-right">
-                                <h5>April 2021 - Present</h5>
-                                <h4>.NET Developer Junior Advanced</h4>
-                            </div>
-
-                            <div class="col-md-8" data-aos="fade-right">
-                                <div class="card-body">
-                                    <h3 class="card-title">.NET Developer Jr Advanced</h3>
-                                    <h4 class="h4Color"><span style="color: rgba(24, 184, 24, 0.486);">Globant</span>
-                                        -
-                                        CABA, Buenos Aires(AR)</h4>
-                                    <p class="card-text">
-                                        At the company's bootcamp. Just taking courses and training in .NET until a
-                                        proyect
-                                        assignment.
-                                    </p>
-                                    <ul class="space-ul-li">
-                                        <li><b>Modality:</b> Dependency relationship.</li>
-                                        <li><b>Contract type:</b> Indefinite period.</li>
-                                        <li><b>Working day:</b> Full-Time.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="contact">
-        <div class="container" data-aos="fade-up">
-            <!-- Title -->
-            <h2>Contact</h2>
-
-            <!-- Social Buttons -->
-            <div class="icons">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Full Stack Developer.</h3>
+            <p class="fst-italic">
+              Working on the .NET environment and aim to specialize in React + NET Core stack.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
                 <ul>
-                    <li data-aos="fade-up">
-                        <a href="https://api.whatsapp.com/send?phone=5491159102957">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </li>
-                    <li data-aos="fade-up">
-                        <a href="https://github.com/DiazLuciano">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                    <li data-aos="fade-up">
-                        <a href="https://www.linkedin.com/in/lucianonicolasdiaz/">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li data-aos="fade-up">
-                        <a href="mailto:luchodiaz1995@gmail.com">
-                            <i class="fas fa-envelope-square"></i>
-                        </a>
-                    </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>10 Sep 1995</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+54 11 5910 2957</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tigre, Buenos Aires, Argentina</span></li>
                 </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Associate</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>luchodiaz1995@gmail.com</span></li>
+                </ul>
+              </div>
             </div>
+            <p>
+              About work, I consider that it's very important to maintain a good environment and communication between the participants
+              of the team to achieve the best possible the common objective.</p>
+          </div>
         </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section =======
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Awards</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </section>
+    End Facts Section -->
 
-    <!-- FOOTER -->
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
 
-    <footer class="page-footer font-small unique-color-dark pt-4">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>
+            Here are some hard skills I used along my experiencies and by self-learning. Nowadays, I aim to specialize in another ones, but
+            I put here the ones stand out.
+          </p>
+        </div>
 
-        <!-- Footer Elements -->
-        <div class="container">
+        <div class="row skills-content">
 
-            <!-- Call to action -->
-            <ul class="list-unstyled list-inline text-center py-2">
-                <li class="list-inline-item">
-                    <h5 class="mb-1">Luciano Nicolás Díaz</h5>
-                </li>
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">46%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Git <i class="val">45%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">C# <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">.NET <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SQL Server <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>            
+
+            <div class="progress">
+              <span class="skill">React Js <i class="val">20%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>
+            I am a Full Stack developer with industry experience building websites and web applications. 
+            I specialize in .NET and have professional experience working with C# and JavaScript. 
+            I also have experience working with jQuery, CSS, HTML, SQL Server, Git and React.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Luciano Nicolás Díaz</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Tigre, Buenos Aires, AR</li>
+                <li>+54 11 5910 2957</li>
+                <li>luchodiaz1995@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>University Technician in Computer Systems</h4>
+              <h5>2020 - 2021</h5>
+              <p><em>Universidad Tecnológica Nacional, Buenos Aires, AR</em></p>
+              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            </div>
+            <div class="resume-item">
+              <h4>University Technician in Programming</h4>
+              <h5>2018 - 2020</h5>
+              <p><em>Universidad Tecnológica Nacional, Buenos Aires, AR</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Full Stack Developer</h4>
+              <h5>2021 - Present</h5>
+              <p><em>Globant, Buenos Aires, AR </em></p>
+              <ul>
+                <li>Daily meetings with the Dev Team and Products Owners to report our situation (SCRUM, Jira)</li>
+                <li>Maintenance and Development of a platform for the sale of advertising space (React + .NET)</li>
+                <li>Unit Testing (Karma, Jasmine, NUnit, SonarQube)</li>
+                <li>Work in POD, using Git for our changes and push to ADO respository</li>
+                <li>Comunication with our organization through Slack</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Developer</h4>
+              <h5>2020 - 2021</h5>
+              <p><em>Time Solution Software S.R.L, Buenos Aires, AR</em></p>
+              <ul>
+                <li>Development and maintenance of Web Applications (Web Forms, Web Api, .NET Framework)</li>
+                <li>Development and maintenance of Web Desktops (Windows Forms)</li>
+                <li>Managment and development of Data Bases (MS SQL Server, T-SQL)</li>
+                <li>Communication team through Discord and Trello</li>
+                <li>Work using Git for our code and push to a GitHub respository</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-web">Web</li>
             </ul>
-            <!-- Call to action -->
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Movie Listings</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Movie Listings"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
-        <!-- Footer Elements -->
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">
-            Updated: June 2021
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section =======
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-        <!-- Copyright -->
 
-    </footer>
-    <!-- FIN FOOTER -->
+        <div class="row">
 
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bx bxl-dribbble"></i>
+              </div>
+              <h4><a href="">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
 
-    <!-- SCRIPTS -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="bx bx-file"></i>
+              </div>
+              <h4><a href="">Sed Perspiciatis</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
 
-    <!-- MODERNIZR -->
-    <script src="js/modernizr-custom.js"></script>
-    <!-- MY SCRIPTS -->
-    <script src="js/myScripts.js"></script>
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
-    </script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
-    </script>
-    <!-- AOS Animaciones -->
-    <script src="js/aos.js"></script>
-    <script>
-        AOS.init();
-        CalculateAge();
-    </script>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bx bx-tachometer"></i>
+              </div>
+              <h4><a href="">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
 
-    <!-- FIN SCRIPTS -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                <i class="bx bx-layer"></i>
+              </div>
+              <h4><a href="">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="bx bx-slideshow"></i>
+              </div>
+              <h4><a href="">Dele Cardo</a></h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bx bx-arch"></i>
+              </div>
+              <h4><a href="">Divera Don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> End Services Section
+
+     ======= Testimonials Section =======
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Tigre, Buenos Aires, Argentina</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>luchodiaz1995@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+54 11 5910 2957</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Luciano Díaz</h3>
+      <p>I share with you some of my social networks.</p>
+      <div class="social-links">
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+        <a href="https://www.linkedin.com/in/lucianonicolasdiaz/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

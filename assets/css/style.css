@@ -1048,3 +1048,34 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.section-download{
+  display: flex;
+  justify-content: center;
+}
+
+.button-download{
+  background-color: slategray;
+  width: 15rem;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.button-download:hover{
+  background-color: #45505b;
+}
+
+.aDownload, .aDownload:hover{
+  text-decoration: none;
+  color: #eee;
+  margin-left: 0.7rem;
+}
+
+.fa-download{
+  color: #fff;
+}

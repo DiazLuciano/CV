@@ -260,5 +260,54 @@
       mirror: false
     })
   });
-
 })()
+
+
+  /**
+   * Change language
+   */
+  const flagsElement = document.getElementById('flags');
+  const textsToChange = document.querySelectorAll('[data-section]');
+  
+  flagsElement.addEventListener('click', (e) => {
+    changeLanguage(e.target.parentElement.dataset.language);
+  })
+  
+  const changeLanguage = async (languaje) => {
+    if(!languaje) languaje = 'en';
+    const requestJson = await fetch(`./languages/${languaje}.json`);
+    const texts = await requestJson.json();
+  
+    for(const textToChange of textsToChange) {
+      const section = textToChange.dataset.section;
+      const value = textToChange.dataset.value;
+  
+      textToChange.innerHTML = texts[section][value];
+    }
+  };
+
+  /**
+   * Calculcate age
+   */
+  const age = document.getElementById('age');
+  const setAge = () => {
+    console.log(age)
+    const birthdayDate = "1995-09-10";
+    var today = new Date();
+    var birthday = new Date(birthdayDate);
+    var resultAge = today.getFullYear() - birthday.getFullYear();
+    var m = today.getMonth() - birthday.getMonth();
+
+    if (m < 0 || (m === 0 && today.getDate() < birthday.getDate())) {
+      resultAge--;
+    }
+
+    age.innerHTML = resultAge;
+  }
+
+  // Load by default
+  changeLanguage('en');
+
+  // Calculate age
+  setAge();
+

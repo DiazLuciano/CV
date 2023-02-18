@@ -1,0 +1,77 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "resume": "Resume",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "hero": {
+        "name": "Luciano Nicolás Díaz",
+        "description": "I'm"
+    },
+    "about": {
+        "title": "About",
+        "description": "My name is Luciano, and I'm working on the Web Development since 2020.  After getting my technician degree on programming, I started my first job on a start-up that initialized me on the .NET world. I am a Full Stack developer with industry experience building websites and web applications. I specialize in .NET and have professional experience working with C# and JavaScript. I also have experience working with jQuery, CSS, HTML, SQL Server, Git and Angular."
+        },
+    "profile": {
+        "role": "Front End Developer",
+        "shortDescription": " Working on the .NET environment and aim to specialize in Angular + .NET stack.",
+        "degree": "Associate",
+        "descriptionAsPartner": "About work, I consider that it's very important to maintain a good environment and communication between the participants of the team to achieve the best possible the common objective.",
+        "birthday": "Birthday",
+        "phone": "Phone",
+        "city": "City",
+        "age": "Age",
+        "degreeTitle": "Degree",
+        "email": "Email"
+    },
+    "skills": {
+        "title": "Skills",
+        "description": "Here are some hard skills I used along my experiencies and by self-learning. Nowadays, I aim to specialize in another ones, but I put here the ones stand out."
+    },
+    "resume": {
+        "title": "Resume",
+        "description": "I am a Full Stack developer with industry experience building websites and web applications. I specialize in .NET and have professional experience working with C# and JavaScript. I also have experience working with jQuery, CSS, HTML, SQL Server, Git and Angular.",
+        "buttonDownload": "Download CV/Resume"
+    },
+    "summary": {
+        "title": "Summary",
+        "description": "Web Developer with experiencie on the front-end as well as back-end. I have been working on this area for 2 years. Specially, I managed the .NET environment, with ASP NET, WEB API and databases, getting involved on different types of projects as e-commerce, landing pages, forms, advertising platform and fintech."
+    },
+    "education": {
+        "title": "Education",
+        "first-title-name": "University Technician in Computer Systems",
+        "first-title-description": "In this career, I learnt about the workflow to pre-build a system, mananging the UML diagrams. In this final activity, my team and I worked on building a mobile app. So, here I met with Android, managing Android Studio as IDE and Java as language.",
+        "second-title-name": "University Technician in Programming",
+        "second-title-description": "In this career I got on board about the foundations about the programming. Starting with pseudocode and about languajes, firstly C++, then C# (knowing the IDE Visual Studio) and Java (with Eclipse). About storage, I saw MS SQL Server, mySql and Oracle. "
+    },
+    "experiencies": {
+        "title": "Professional Experience",
+        "present": "2022 - Present",
+        "firstRole": "Full Stack Developer",
+        
+        
+        
+        
+        
+        "secondtRole": "Full Stack Developer",
+        "secondItem1": "Following the Scrum methodology, using Jira",
+        "secondItem2": "Maintenance and Development of the On Boarding section from the app hosted on the Play/App Store (IUDÚ)",
+        "secondItem3": "Maintenance and Development of an internal system from the company to allow the users to check the status of the new on boardings from the clients",
+        "secondItem4": "Work in Squads",
+        "secondItem5": "Use especially MS Sql Server, .Net Core 3.1, Angular, and Git (with respositories alocated on Azure Dev Ops)"
+    },
+    "projects": {
+
+    },
+    "contact": {
+        "location": "tigre, buenos aires, argentina",
+        "email": "luchodiaz1995@gmail.com",
+        "phoneNumber": "+541159102957"
+    },
+    "footer": {
+        "name": "luciano díaz",
+        "text": "I share with you some of my social networks."
+    }
+}

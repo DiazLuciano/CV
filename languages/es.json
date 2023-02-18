@@ -1,0 +1,49 @@
+{
+    "navigation": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "resume": "Resumen",
+        "portfolio": "Portfolio",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "name": "Luciano Nicolás Díaz",
+        "description": "Soy un"
+    },
+    "about": {
+        "title": "Sbre mí",
+        "description": "Mi nombre es Luciano, y estoy trabajando en el Desarrollo Web desde 2020. Luego de obtener mi título de técnico en programación, comencé mi primer trabajo en una start-up que me inicializó en el mundo .NET. Soy un desarrollador Full Stack con experiencia en la industria construyendo sitios y aplicaciones web. Estoy especializado en .NET y tengo experiencia profesional trabajando con C# y JavaScript. También tengo experiencia trabajando con jQuery, CSS, HTML, SQL Server, Git y Angular."
+        },
+    "profile": {
+        "role": "Desarrollador Front End",
+        "shortDescription": "Trabajando en un ambiente front utilizando Angular como framework.",
+        "degree": "Tecnicatura Universitaria",
+        "descriptionAsPartner": "Sobre el trabajo, considero que es muy importante mantener un buen ambiente y comunicación entre los participantes del equipo para conseguir lo mejor posible el objetivo común.",
+        "birthday": "Nacimiento",
+        "phone": "Teléfono",
+        "city": "Ciudad",
+        "age": "Edad",
+        "degreeTitle": "Título",
+        "email": "Email"
+    },
+    "skills": {
+        "title": "Skills",
+        "description": "Estas son algunas de las habilidades que he utilizado a lo largo de mi experiencia y por autoaprendizaje. Actualmente, pretendo especializarme en otras, pero pongo aquí las que destacan."
+    },
+    "resume": {
+        "title": "Resumen",
+        "description": "Soy un desarrollador Full Stack con experiencia en la industria de la construcción de sitios web y aplicaciones web. Me especializo en .NET y tengo experiencia profesional trabajando con C# y JavaScript. También tengo experiencia trabajando con jQuery, CSS, HTML, SQL Server, Git y Angular.",
+        "buttonDownload": "Descargar CV/Resumen"
+    },
+    "summary": {
+        "title": "Resumen",
+        "description": "Desarrollador web con experiencia tanto en front-end como en back-end. He estado trabajando en esta área durante 2 años. Especialmente, he manejado el entorno .NET, con ASP NET, WEB API y bases de datos, involucrándome en diferentes tipos de proyectos como e-commerce, landing pages, formularios, plataforma de publicidad y fintech."
+    },
+    "education": {
+        "title": "Educación",
+        "first-title-name": "Tecnicatura Universitaria en Sistemas Informáticos",
+        "first-title-description": "En esta carrera, aprendí sobre el flujo de trabajo para pre-construir un sistema, manejando los diagramas UML. En esta actividad final, mi equipo y yo trabajamos en la construcción de una aplicación móvil. Aquí me encontré con Android, manejando Android Studio como IDE y Java como lenguaje.",
+        "second-title-name": "Tecnicatura Universitaria en Programación",
+        "second-title-description": "En esta carrera me introduje en los fundamentos de la programación. Empezando con pseudocódigo y sobre lenguajes, primero C++, luego C# (conociendo el IDE Visual Studio) y Java (con Eclipse). Sobre almacenamiento, vi MS SQL Server, mySql y Oracle."
+    }
+}

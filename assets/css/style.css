@@ -1079,3 +1079,20 @@ section {
 .fa-download{
   color: #fff;
 }
+
+/* Flags */
+.flags {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flags__img {
+  cursor: pointer;
+  display: block;
+}
+
+.flags__item {
+  width: 30px;
+}

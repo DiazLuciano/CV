@@ -291,7 +291,6 @@
    */
   const age = document.getElementById('age');
   const setAge = () => {
-    console.log(age)
     const birthdayDate = "1995-09-10";
     var today = new Date();
     var birthday = new Date(birthdayDate);

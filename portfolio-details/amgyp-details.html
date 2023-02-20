@@ -36,6 +36,14 @@
 </head>
 
 <body>
+  <div id="flags" class="flags m-2 fixed-top" >
+    <div class="flags__item" data-language="es">
+      <img src="../assets/icons/es.svg" class="flags__img" alt="spanish flag">
+    </div>
+    <div class="flags__item" data-language="en">
+      <img src="../assets/icons/gb.svg" class="flags__img" alt="spanish flag">
+    </div>
+  </div>
 
   <main id="main">
 
@@ -49,7 +57,7 @@
             <div class="portfolio-details-slider swiper">
               <div class="align-items-center">
 
-                <video width="600" controls>
+                <video controls>
                   <source src="../assets/img/portfolio/amgyp/AMGYP.mp4" type="video/mp4">
                   Your browser does not support HTML video.
                 </video>
@@ -61,22 +69,17 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3 id="project__title" data-section="project" data-value="title"></h3>
               <ul>
-                <li><strong>Category</strong>: Web Form</li>
-                <li><strong>Client</strong>: General</li>
-                <li><strong>Project date</strong>: 01 September, 2020</li>
-                <li><strong>Project URL</strong>: <a href="https://www.timesolution.com.ar/gestion-solution/">AMGYP Solution</a></li>
+                <li><strong id="project__category" data-section="project" data-value="category"></strong>: Web App</li>
+                <li><strong id="project__client" data-section="project" data-value="client"></strong>: General</li>
+                <li><strong id="project__date" data-section="project" data-value="date"></strong>: 01 September, 2020</li>
+                <li><strong id="project__url" data-section="project" data-value="url"></strong>: <a href="https://www.timesolution.com.ar/gestion-solution/" target="_blank">AMGYP Solution</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Project Details</h2>
-              <p>
-                In this project, I have carried out the development of a register form using ASP NET Web Forms and MS Sql Server.
-                It registers a new user through a form, and then allows the user to upload any file and allocated it to main system.
-                After registering, there is a dashboard and modules where the user, after logging in, can interact. 
-                This form uses the API of the another system to create a client into its database.
-              </p>
+              <h2 id="project__details" data-section="project" data-value="details"></h2>
+              <p id="project__amgypDetails" data-section="project" data-value="amgyp-details"></p>
             </div>
           </div>
 

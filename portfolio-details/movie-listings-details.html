@@ -36,9 +36,15 @@
 </head>
 
 <body>
-
+  <div id="flags" class="flags m-2 fixed-top" >
+    <div class="flags__item" data-language="es">
+      <img src="../assets/icons/es.svg" class="flags__img" alt="spanish flag">
+    </div>
+    <div class="flags__item" data-language="en">
+      <img src="../assets/icons/gb.svg" class="flags__img" alt="spanish flag">
+    </div>
+  </div>
   <main id="main">
-
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
@@ -48,19 +54,15 @@
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
                 <div class="swiper-slide">
                   <img src="../assets/img/portfolio/movie-listings/movie-listings.png" alt="">
                 </div>
-
                 <div class="swiper-slide">
                   <img src="../assets/img/portfolio/movie-listings/movie-listings-details-1.png" alt="">
                 </div>
-
                 <div class="swiper-slide">
                   <img src="../assets/img/portfolio/movie-listings/movie-listings-details-2.png" alt="">
                 </div>
-
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -68,26 +70,17 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3 id="project__title" data-section="project" data-value="title"></h3>
               <ul>
-                <li><strong>Category</strong>: Web App</li>
-                <li><strong>Client</strong>: -</li>
-                <li><strong>Project date</strong>: 15 January, 2022</li>
-                <li><strong>Project URL</strong>: <a href="#"></a></li>
+                <li><strong id="project__category" data-section="project" data-value="category"></strong>: Web App</li>
+                <li><strong id="project__client" data-section="project" data-value="client"></strong>: General</li>
+                <li><strong id="project__date" data-section="project" data-value="date"></strong>: 15 January, 2022</li>
+                <li><strong id="project__url" data-section="project" data-value="url"></strong>: <a href="https://github.com/DiazLuciano/movie-listing" target="_blank">Movie Listings</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Project Details</h2>
-              <p>
-                It is a web application that I made with React. Here you can see the trendest movies and 
-                make a search of any movie that you want to see. If you want details of the selected by you, 
-                clicking on the movie will take you to another page with the details of that movie. 
-                As I mentioned before, I aim to improve
-                my skills on the front-end, so I got curiosity on this library. I followed a course to carrying on 
-                this project, where I used Visual Studio Code as editor code, Git to manage my progress on the code,
-                tools like React js, react-create-app, react-router-dom, npm, hooks, The Movie DataBase API to get data 
-                of the movies and techniqes like infinite scroll and debounce to delay the api calls.
-              </p>
+              <h2 id="project__details" data-section="project" data-value="details"></h2>
+              <p id="project__movieDetails" data-section="project" data-value="movie-details"></p>
             </div>
           </div>
 

@@ -36,7 +36,14 @@
 </head>
 
 <body>
-
+  <div id="flags" class="flags m-2 fixed-top" >
+    <div class="flags__item" data-language="es">
+      <img src="../assets/icons/es.svg" class="flags__img" alt="spanish flag">
+    </div>
+    <div class="flags__item" data-language="en">
+      <img src="../assets/icons/gb.svg" class="flags__img" alt="spanish flag">
+    </div>
+  </div>
   <main id="main">
 
     <!-- ======= Portfolio Details Section ======= -->
@@ -60,26 +67,16 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3 id="project__title" data-section="project" data-value="title"></h3>
               <ul>
-                <li><strong>Category</strong>: Desktop App</li>
-                <li><strong>Client</strong>: AGD (Aceitera General Deheza S.A.)</li>
-                <li><strong>Project date</strong>: 01 August, 2020</li>
-                <li><strong>Project URL</strong>: -</li>
+                <li><strong id="project__category" data-section="project" data-value="category"></strong>: Desktop App</li>
+                <li><strong id="project__client" data-section="project" data-value="client"></strong>: AGD (Aceitera General Deheza S.A.)</li>
+                <li><strong id="project__date" data-section="project" data-value="date"></strong>: 01 August, 2020</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Project Details</h2>
-              <p>
-                In this project, I continued with the development of a desktop application with C #. 
-                This application is integrated into a shelf-type storage machine called MODULA. 
-                On this occasion, the machine writes to a database, and the application constantly reads this database 
-                to perform a certain action depending on what is written. 
-                This project bases in multiple threads to perform different actions. 
-                I used Windows Forms to the user interface, the concept of Threading to wait a response of 
-                and T-SQL to make triggers on the database (MS SQL Server),
-                which it have always been observed by MODULA to make a request or response depending the requested action.
-              </p>
+              <h2 id="project__details" data-section="project" data-value="details"></h2>
+              <p id="project__modulaDetails" data-section="project" data-value="modula-details"></p>
             </div>
           </div>
 

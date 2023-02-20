@@ -1,0 +1,15 @@
+{
+    "project": {
+        "title": "Project Information",
+        "details": "Project Details",
+        "category": "Category",
+        "client": "Client",
+        "date": "Project Date",
+        "url": "Project URL",
+        "gestion-details": "This application was the main system of the company. It's an e-commerce app, which was adapted to different kinds of business. My job as a developer, was to create new features and maintenance the existing ones. To do this, I used Visual Studio 2017+ as IDE, MS SQL Server to manage the databases, Git to manage my changes and combine them with the dev team, C# as main language, Web API, and Web Forms to the front-end (also CSS, HTML and JavaScript) and TRELLO to carrying on our tasks.",
+        "modula-details": "In this project, I continued with the development of a desktop application with C# . This application is integrated into a shelf-type storage machine called MODULA. On this occasion, the machine writes to a database, and the application constantly reads this database to perform a certain action depending on what is written. This project bases in multiple threads to perform different actions. I used Windows Forms to the user interface, the concept of Threading to wait a response of and T-SQL to make triggers on the database (MS SQL Server), which it have always been observed by MODULA to make a request or response depending the requested action.",
+        "movie-details": "It is a web application that I made with React. Here you can see the trendest movies and make a search of any movie that you want to see. If you want details of the selected by you, clicking on the movie will take you to another page with the details of that movie. As I mentioned before, I aim to improve my skills on the front-end, so I got curiosity on this library. I followed a course to carrying on this project, where I used Visual Studio Code as editor code, Git to manage my progress on the code,tools like React js, react-create-app, react-router-dom, npm, hooks, The Movie DataBase API to get data of the movies and techniqes like infinite scroll and debounce to delay the api calls.",
+        "quizzGame-details": "This is a web application I made with Angular. In this application you can play a quiz game. Also, you can create a user to create your own quizzes. The storage of quizzes and game results is done with firebase. I also used it to perform authentication. My goal was to improve my front-end skills, using Angular, and make this project e2e, that is, up to deploy using Netlify. I used Angular, Angular Material, Bootstrap, AnimateStlye, css loaders, Git, Netlify and Firebase.",
+        "amgyp-details":"In this project, I have carried out the development of a register form using ASP NET Web Forms and MS Sql Server. It registers a new user through a form, and then allows the user to upload any file and allocated it to main system. After registering, there is a dashboard and modules where the user, after logging in, can interact. This form uses the API of the another system to create a client into its database."
+    }
+}

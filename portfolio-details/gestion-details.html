@@ -36,7 +36,14 @@
 </head>
 
 <body>
-
+  <div id="flags" class="flags m-2 fixed-top" >
+    <div class="flags__item" data-language="es">
+      <img src="../assets/icons/es.svg" class="flags__img" alt="spanish flag">
+    </div>
+    <div class="flags__item" data-language="en">
+      <img src="../assets/icons/gb.svg" class="flags__img" alt="spanish flag">
+    </div>
+  </div>
   <main id="main">
 
     <!-- ======= Portfolio Details Section ======= -->
@@ -60,23 +67,17 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3></h3>
               <ul>
-                <li><strong>Category</strong>: Web App - E-Commerce</li>
-                <li><strong>Client</strong>: General</li>
-                <li><strong>Project date</strong>: 01 August, 2020</li>
-                <li><strong>Project URL</strong>: <a href="https://www.timesolution.com.ar/gestion-solution/">Gestion Solution</a></li>
+                <li><strong id="project__category" data-section="project" data-value="category"></strong>: Web App - E-Commerce</li>
+                <li><strong id="project__client" data-section="project" data-value="client"></strong>: General</li>
+                <li><strong id="project__date" data-section="project" data-value="date"></strong>: 01 August, 2020</li>
+                <li><strong id="project__url" data-section="project" data-value="url"></strong>: <a href="https://www.timesolution.com.ar/gestion-solution/" target="_blank">Gestion Solution</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Project Details</h2>
-              <p>
-                This application was the main system of the company. It's an e-commerce app, which was adapted
-                to different kinds of business. My job as a developer, was to create new features and maintenance the
-                existing ones. To do this, I used Visual Studio 2017+ as IDE, MS SQL Server to manage the databases,
-                Git to manage my changes and combine them with the dev team, C# as main language, Web API, and Web Forms 
-                to the front-end (also CSS, HTML and JavaScript) and TRELLO to carrying on our tasks.
-              </p>
+              <h2 id="project__details" data-section="project" data-value="details"></h2>
+              <p id="project__gestionDetails" data-section="project" data-value="gestion-details"></p>
             </div>
           </div>
 

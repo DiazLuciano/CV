@@ -11,7 +11,7 @@
         "description": "Soy un"
     },
     "about": {
-        "title": "Sbre mí",
+        "title": "Sobre mí",
         "description": "Mi nombre es Luciano, y estoy trabajando en el Desarrollo Web desde 2020. Luego de obtener mi título de técnico en programación, comencé mi primer trabajo en una start-up que me inicializó en el mundo .NET. Soy un desarrollador Full Stack con experiencia en la industria construyendo sitios y aplicaciones web. Estoy especializado en .NET y tengo experiencia profesional trabajando con C# y JavaScript. También tengo experiencia trabajando con jQuery, CSS, HTML, SQL Server, Git y Angular."
         },
     "profile": {
@@ -45,5 +45,60 @@
         "first-title-description": "En esta carrera, aprendí sobre el flujo de trabajo para pre-construir un sistema, manejando los diagramas UML. En esta actividad final, mi equipo y yo trabajamos en la construcción de una aplicación móvil. Aquí me encontré con Android, manejando Android Studio como IDE y Java como lenguaje.",
         "second-title-name": "Tecnicatura Universitaria en Programación",
         "second-title-description": "En esta carrera me introduje en los fundamentos de la programación. Empezando con pseudocódigo y sobre lenguajes, primero C++, luego C# (conociendo el IDE Visual Studio) y Java (con Eclipse). Sobre almacenamiento, vi MS SQL Server, mySql y Oracle."
+    },
+    "experiencies": {
+        "title": "Experiencia Profesional",
+        "present": "2022 - Presente",
+        "fullStackRole": "Desarrollador Full Stack",
+        "firstItem1": "Following the Scrum methodology, using Trello",
+        "firstItem2": "Maintenance and Development of a backoffice system about insurance and assistance",
+        "firstItem3": "Works on the frontend using Angular and Fuse template",
+        "firstItem5": "Works with software providers",
+        "secondItem1": "Following the Scrum methodology, using Jira",
+        "secondItem2": "Maintenance and Development of the onboarding section from the app hosted on the Play/App Store (IUDÚ)",
+        "secondItem3": "Maintenance and Development of an internal system from the company to allow the users to check the status of the new on boardings from the clients",
+        "secondItem4": "Work in Squads",
+        "secondItem5": "Use especially MS Sql Server, .Net Core 3.1, Angular, and Git (with respositories alocated on Azure Dev Ops)",
+        "thirdItem1": "Following the Scrum methodology, using Jira (Talking on English)",
+        "thirdItem3": "Maintenance and Development of a platform for the sale of advertising space (.NET)",
+        "thirdItem4": "Unit Testing (Karma, Jasmine, NUnit, SonarQube)",
+        "thirdItem5": "Use .Net Framework, JavaScript, jQuery and Git (with respositories alocated on Azure Dev Ops)",
+        "fourthItem1": "Development and maintenance of an E-Commerce",
+        "fourthItem2": "Development and maintenance of Web Desktops",
+        "fourthItem3": "Managment and development of Data Bases",
+        "fourthItem4": "Communication team through Discord and Trello",
+        "fourthItem5": "Work using Git for our code and push to a GitHub respository",
+        "fourthItem6": "Use .Net Framework 4.5, Web Forms, Web Api, Windows Forms, C#, JavaScript, HTML5, CSS, jQuery, Ms Sql Server, T-SQL"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "description": "Here are some of my newest projects and apps that I have built during this timen, also some of projects where I have been working in previous jobs. As you see, I have an approach to focus my path to the front-end side. I use different libraries to explore what can I do to desing my page estructure and using various Apis to get data that I need to handle and showing it on the user interface.",
+        "filter": "Todos",
+        "first-project-title": "Quizz Game",
+        "second-project-title": "Movie Listings",
+        "third-project-title": "Modula",
+        "fourth-project-title": "Gestion Solution",
+        "fifth-project-title": "Amgyp"
+    },
+    "projectInformation": {
+        "title": "Información del Proyecto",
+        "details": "Detalles del Proyecto",
+        "category": "Category",
+        "client": "Client",
+        "date": "Project Date",
+        "url": "Project URL",
+        "gestionDetails": "",
+        "movieDetails": "",
+        "modulaDetails": "",
+        "amgypDetails": "",
+        "quizzGameDetails": " In this project, I have carried out the development of a register form using ASP NET Web Forms and MS Sql Server. It registers a new user through a form, and then allows the user to upload any file and allocated it to main system. After registering, there is a dashboard and modules where the user, after logging in, can interact. This form uses the API of the another system to create a client into its database."
+    },
+    "contact": {
+        "location": "Ubicación",
+        "email": "Enviame un e-mail",
+        "call": "Llámame"
+    },
+    "footer": {
+        "links": "Comparto contigo mis redes profesionales."
     }
 }

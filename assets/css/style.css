@@ -1096,3 +1096,8 @@ section {
 .flags__item {
   width: 30px;
 }
+
+video {
+  height: auto;
+  width: 100%;
+}

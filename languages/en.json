@@ -53,7 +53,7 @@
         "firstItem1": "Following the Scrum methodology, using Trello",
         "firstItem2": "Maintenance and Development of a backoffice system about insurance and assistance",
         "firstItem3": "Works on the frontend using Angular and Fuse template",
-        "firstItem5": "Works with software providers",
+        "firstItem4": "Works with software providers",
         "secondItem1": "Following the Scrum methodology, using Jira",
         "secondItem2": "Maintenance and Development of the onboarding section from the app hosted on the Play/App Store (IUDÚ)",
         "secondItem3": "Maintenance and Development of an internal system from the company to allow the users to check the status of the new on boardings from the clients",
@@ -79,19 +79,6 @@
         "third-project-title": "Modula",
         "fourth-project-title": "Gestion Solution",
         "fifth-project-title": "Amgyp"
-    },
-    "projectInformation": {
-        "title": "Project Information",
-        "details": "Project Details",
-        "category": "Category",
-        "client": "Client",
-        "date": "Project Date",
-        "url": "Project URL",
-        "gestionDetails": "",
-        "movieDetails": "",
-        "modulaDetails": "",
-        "amgypDetails": "",
-        "quizzGameDetails": " In this project, I have carried out the development of a register form using ASP NET Web Forms and MS Sql Server. It registers a new user through a form, and then allows the user to upload any file and allocated it to main system. After registering, there is a dashboard and modules where the user, after logging in, can interact. This form uses the API of the another system to create a client into its database."
     },
     "contact": {
         "location": "Location",

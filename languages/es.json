@@ -12,11 +12,10 @@
     },
     "about": {
         "title": "Sobre mí",
-        "description": "Mi nombre es Luciano, y estoy trabajando en el Desarrollo Web desde 2020. Luego de obtener mi título de técnico en programación, comencé mi primer trabajo en una start-up que me inicializó en el mundo .NET. Soy un desarrollador Full Stack con experiencia en la industria construyendo sitios y aplicaciones web. Estoy especializado en .NET y tengo experiencia profesional trabajando con C# y JavaScript. También tengo experiencia trabajando con jQuery, CSS, HTML, SQL Server, Git y Angular."
+        "description": "Mi nombre es Luciano Díaz, soy de Argentina, Buenos Aires. Soy Desarrollador Web con experiencia construyendo sitios y aplicaciones web. Me especializo en desarrollo front y back trabajando con Angular y .NET. Manejé bases de datos MS SQL Server, usé git para la versión de mis controles, trabajé en entorno ágil usando Jira, hice test unitarios por Jasmine/Karma y NUnit y he manipulado bootstrap, Angular Material, Fuse Template, CSS, SCSS, HTML5, JavaScript, TypeScript, POO y Firebase."
         },
     "profile": {
-        "role": "Desarrollador Front End",
-        "shortDescription": "Trabajando en un ambiente front utilizando Angular como framework.",
+        "role": "Desarrollador Full Stack",
         "degree": "Tecnicatura Universitaria",
         "descriptionAsPartner": "Sobre el trabajo, considero que es muy importante mantener un buen ambiente y comunicación entre los participantes del equipo para conseguir lo mejor posible el objetivo común.",
         "birthday": "Nacimiento",
@@ -27,7 +26,7 @@
         "email": "Email"
     },
     "skills": {
-        "title": "Skills",
+        "title": "Habilidades",
         "description": "Estas son algunas de las habilidades que he utilizado a lo largo de mi experiencia y por autoaprendizaje. Actualmente, pretendo especializarme en otras, pero pongo aquí las que destacan."
     },
     "resume": {
@@ -50,19 +49,23 @@
         "title": "Experiencia Profesional",
         "present": "2022 - Presente",
         "fullStackRole": "Desarrollador Full Stack",
+        "firstItemDate": "Ago 2022 - Jun 2023",
         "firstItem1": "Following the Scrum methodology, using Trello",
         "firstItem2": "Maintenance and Development of a backoffice system about insurance and assistance",
         "firstItem3": "Works on the frontend using Angular and Fuse template",
         "firstItem4": "Works with software providers",
+        "secondItemDate": "Mar 2022 - Ago 2022",
         "secondItem1": "Following the Scrum methodology, using Jira",
         "secondItem2": "Maintenance and Development of the onboarding section from the app hosted on the Play/App Store (IUDÚ)",
         "secondItem3": "Maintenance and Development of an internal system from the company to allow the users to check the status of the new on boardings from the clients",
         "secondItem4": "Work in Squads",
         "secondItem5": "Use especially MS Sql Server, .Net Core 3.1, Angular, and Git (with respositories alocated on Azure Dev Ops)",
+        "thirdItemDate": "May 2021 - Mar 2022",
         "thirdItem1": "Following the Scrum methodology, using Jira (Talking on English)",
         "thirdItem3": "Maintenance and Development of a platform for the sale of advertising space (.NET)",
         "thirdItem4": "Unit Testing (Karma, Jasmine, NUnit, SonarQube)",
         "thirdItem5": "Use .Net Framework, JavaScript, jQuery and Git (with respositories alocated on Azure Dev Ops)",
+        "fourthItemDate": "Feb 2020 - Abr 2021",
         "fourthItem1": "Development and maintenance of an E-Commerce",
         "fourthItem2": "Development and maintenance of Web Desktops",
         "fourthItem3": "Managment and development of Data Bases",

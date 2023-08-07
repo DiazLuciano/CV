@@ -305,7 +305,7 @@
   }
 
   // Load by default
-  changeLanguage('en');
+  changeLanguage('es');
 
   // Calculate age
   setAge();

@@ -16,13 +16,14 @@
         },
     "profile": {
         "role": "Full Stack Developer",
+        "techStack": ".NET + Angular",
         "degree": "Associate",
         "descriptionAsPartner": "About work, I consider that it's very important to maintain a good environment and communication between the participants of the team to achieve the best possible the common objective.",
         "birthday": "Birthday",
         "phone": "Phone",
         "city": "City",
         "age": "Age",
-        "degreeTitle": "Degree",
+        "university": "Degree",
         "email": "Email"
     },
     "skills": {
@@ -83,9 +84,12 @@
         "fifth-project-title": "Amgyp"
     },
     "contact": {
+        "title": "Contact",
         "location": "Location",
         "email": "Email me",
-        "call": "Call me"
+        "call": "Call me",
+        "questionCv": "¿Do you need mi Cv?",
+        "downloadCv": "Download here with .pdf format"
     },
     "footer": {
         "links": "I share with you some of my social networks."

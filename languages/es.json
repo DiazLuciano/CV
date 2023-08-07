@@ -12,31 +12,27 @@
     },
     "about": {
         "title": "Sobre mí",
-        "description": "Mi nombre es Luciano Díaz, soy de Argentina, Buenos Aires. Soy Desarrollador Web con experiencia construyendo sitios y aplicaciones web. Me especializo en desarrollo front y back trabajando con Angular y .NET. Manejé bases de datos MS SQL Server, usé git para la versión de mis controles, trabajé en entorno ágil usando Jira, hice test unitarios por Jasmine/Karma y NUnit y he manipulado bootstrap, Angular Material, Fuse Template, CSS, SCSS, HTML5, JavaScript, TypeScript, POO y Firebase."
+        "description": "Soy un desarrollador de software con un perfil Full-Stack. Desde el año 2020 me desenvuelvo con este rol dentro del area de IT. He trabajado en distintos proyectos con clientes y rubros muy variados tales como e-commerce, sitios estaticos y dinamicos, APIs, backoffices, servicios y microservicios."
         },
     "profile": {
         "role": "Desarrollador Full Stack",
-        "degree": "Tecnicatura Universitaria",
-        "descriptionAsPartner": "Sobre el trabajo, considero que es muy importante mantener un buen ambiente y comunicación entre los participantes del equipo para conseguir lo mejor posible el objetivo común.",
-        "birthday": "Nacimiento",
-        "phone": "Teléfono",
-        "city": "Ciudad",
-        "age": "Edad",
-        "degreeTitle": "Título",
-        "email": "Email"
+        "study": "Universidad:",
+        "city": "Ubicacion:",
+        "age": "Edad:",
+        "university": "Universidad Tecnologica Nacional"
     },
     "skills": {
         "title": "Habilidades",
-        "description": "Estas son algunas de las habilidades que he utilizado a lo largo de mi experiencia y por autoaprendizaje. Actualmente, pretendo especializarme en otras, pero pongo aquí las que destacan."
+        "description": "Estas son algunas de las habilidades que he utilizado a lo largo de mi experiencia y por autoaprendizaje."
     },
     "resume": {
         "title": "Resumen",
         "description": "Soy un desarrollador Full Stack con experiencia en la industria de la construcción de sitios web y aplicaciones web. Me especializo en .NET y tengo experiencia profesional trabajando con C# y JavaScript. También tengo experiencia trabajando con jQuery, CSS, HTML, SQL Server, Git y Angular.",
-        "buttonDownload": "Descargar CV/Resumen"
+        "buttonDownload": "CV"
     },
     "summary": {
         "title": "Resumen",
-        "description": "Desarrollador web con experiencia tanto en front-end como en back-end. He estado trabajando en esta área durante 2 años. Especialmente, he manejado el entorno .NET, con ASP NET, WEB API y bases de datos, involucrándome en diferentes tipos de proyectos como e-commerce, landing pages, formularios, plataforma de publicidad y fintech."
+        "description": "Desarrollador web con experiencia tanto en front-end como en back-end. He estado trabajando en esta área durante 4 años. Manejo el entorno .NET, con ASP NET, WEB API y bases de datos, involucrándome en diferentes tipos de proyectos como e-commerce, landing pages, formularios, plataforma de publicidad y fintech."
     },
     "education": {
         "title": "Educación",
@@ -84,9 +80,12 @@
         "fifth-project-title": "Amgyp"
     },
     "contact": {
+        "title": "Contacto",
         "location": "Ubicación",
         "email": "Enviame un e-mail",
-        "call": "Llámame"
+        "call": "Llámame",
+        "questionCv": "¿Necesitas mi Cv?",
+        "downloadCv": "Descargalo aqui en formato .pdf"
     },
     "footer": {
         "links": "Comparto contigo mis redes profesionales."

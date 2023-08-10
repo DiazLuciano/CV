@@ -2,7 +2,8 @@
     "navigation": {
         "home": "Inicio",
         "about": "Sobre mí",
-        "resume": "Resumen",
+        "experiencies": "Experiencias",
+        "education": "Educacion",
         "portfolio": "Portfolio",
         "contact": "Contacto"
     },
@@ -35,11 +36,12 @@
         "description": "Desarrollador web con experiencia tanto en front-end como en back-end. He estado trabajando en esta área durante 4 años. Manejo el entorno .NET, con ASP NET, WEB API y bases de datos, involucrándome en diferentes tipos de proyectos como e-commerce, landing pages, formularios, plataforma de publicidad y fintech."
     },
     "education": {
-        "title": "Educación",
+        "title": "Educacion",
+        "status": "Graduado",
         "first-title-name": "Tecnicatura Universitaria en Sistemas Informáticos",
-        "first-title-description": "En esta carrera, aprendí sobre el flujo de trabajo para pre-construir un sistema, manejando los diagramas UML. En esta actividad final, mi equipo y yo trabajamos en la construcción de una aplicación móvil. Aquí me encontré con Android, manejando Android Studio como IDE y Java como lenguaje.",
+        "first-title-description": "Incursione sobre el diseño para desarrollar sistemas mediante el uso de diagramas UML. Trabaje junto a mi equipo en el desarrollo de una aplicación mobile para Android. Utilice Android Studio como IDE y Java como lenguaje de programacion.",
         "second-title-name": "Tecnicatura Universitaria en Programación",
-        "second-title-description": "En esta carrera me introduje en los fundamentos de la programación. Empezando con pseudocódigo y sobre lenguajes, primero C++, luego C# (conociendo el IDE Visual Studio) y Java (con Eclipse). Sobre almacenamiento, vi MS SQL Server, mySql y Oracle."
+        "second-title-description": "Me introduje en los fundamentos de la programación con pseudocódigo y sobre estudios acerca lenguajes de programacion orientados al paradigma orientados a objetos tales como C++, C# y Java. Ademas incursione dentro de la gestion de bases de datos utilizando sistemas de gestion de datos como MS SQL Server, mySql y Oracle."
     },
     "experiencies": {
         "title": "Experiencia Profesional",
@@ -78,6 +80,10 @@
         "third-project-title": "Modula",
         "fourth-project-title": "Gestion Solution",
         "fifth-project-title": "Amgyp"
+    },
+    "services": {
+        "title": "Servicios",
+        "description": "Servicios que puedo ofrecerte para llevar a cabo en tu organizacion o ideas de negocio que se desee con total responsabilidad, transparencia y dedicación."
     },
     "contact": {
         "title": "Contacto",
